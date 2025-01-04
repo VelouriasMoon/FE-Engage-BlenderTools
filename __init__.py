@@ -24,8 +24,11 @@ bl_info = {
 
 import bpy
 from . Volumes_Planel import *
+from .Toolbox_Panel import *
 
 classes = (
+    FETools_FixLocators,
+    FETools_Panel,
     FEVolumes_Panel,
     FEVolumes_Apply,
     FEVloumes_Clear,

@@ -284,7 +284,7 @@ class FEVloumes_Clear(Operator):
 class FEVolumes_Panel(Panel):
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
-    bl_category = "FEEngageVolumes"
+    bl_category = "FE Engage"
     bl_label = "Engage Volumes"
 
     def draw(self, context):
